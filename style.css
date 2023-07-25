@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    padding: 30px;;
+    align-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body:focus{
+    outline: none;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#tblBingo td{
+    border-collapse: collapse;
+    height: 25rem;
+    width: 25rem;
+    text-align: center;
+    font-size: 22pt;
+    cursor: pointer;
+}
+
+#tblBingo td {
+    padding: 0.3rem;
+ }
+
+ .cell-format {
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    border: 0.5px solid #cccece;
+}
+
+.cell-format:hover {
+    background-color: #c6d768;
+}
+
+.letter-div {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letters-bingo {
+    padding: 0 1.3rem;
+    font-size: 40pt;
+    display: none;
+}
+
+.strickout{
+    text-decoration: line-through;
+    color: rgb(62, 139, 207);
+    font-size:xx-small;
+    pointer-events: none;
+}
+
+.show-bingo{
+    display: inline;
+}
